@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/Gordita-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/Gordita-Regular-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/Gordita-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/Gordita-Medium-Italic.woff') format('woff');
+}
+
+@theme {
+  --font-sans: 'Gordita', ui-sans-serif, system-ui, sans-serif;
+
+  --color-accent: #00b871;
+  --color-accent-bright: #2fdf84;
+  --color-ink: #161e2e;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f4fbf7;
+  --color-surface-muted: #f7f7f8;
+  --color-line: #d2d6dc;
+  --color-line-muted: #9ba4b0;
+  --color-line-soft: #9fa6b2;
+
+  --text-display: 48px;
+  --text-display--line-height: 68px;
+  --text-heading: 32px;
+  --text-heading--line-height: 46px;
+  --text-title: 24px;
+  --text-title--line-height: 34px;
+  --text-subtitle: 18px;
+  --text-subtitle--line-height: 28px;
+  --text-body: 16px;
+  --text-body--line-height: 27px;
+  --text-small: 14px;
+  --text-small--line-height: 20px;
+
+  --radius-card: 8px;
+  --radius-panel: 10px;
+  --radius-blog: 10px;
+
+  --shadow-card: 0 6px 16px 4px rgb(47 223 132 / 0.15);
+  --shadow-panel: 0 3.47px 9.25px 2.31px rgb(47 223 132 / 0.15);
+  --shadow-input: 0 6px 16px 4px rgb(47 223 132 / 0.15);
+}
